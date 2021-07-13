@@ -5,6 +5,10 @@
 .fixed {
   position: fixed;
 }
+.wf {
+  width: 100%;
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -28,8 +32,8 @@ body {
 }
 /* 注册栏嵌套*/
 .regist {
-  position: fixed;
   width: 100%;
+  position: fixed;
   height: 50px;
   background-color: #1ba2ea;
 }
@@ -56,8 +60,8 @@ body {
 }
 /* 手机输入框嵌套 */
 .input-phone-box {
-  position: fixed;
   width: 100%;
+  position: fixed;
   height: 62px;
   background-color: #ffffff;
   top: 68px;
@@ -78,8 +82,8 @@ body {
 }
 /* 密码输入框嵌套 */
 .password-box {
-  position: fixed;
   width: 100%;
+  position: fixed;
   height: 62px;
   background-color: #ffffff;
   top: 146px;
@@ -109,8 +113,8 @@ input {
 }
 /* 登录栏 */
 .login {
-  position: fixed;
   width: 100%;
+  position: fixed;
   height: 60px;
   background-color: #1ba2ea;
   top: 224px;

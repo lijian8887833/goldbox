@@ -9,6 +9,13 @@
 position: fixed;
 }
 
+
+.wf{
+  width: 100%;
+  position: fixed;
+}
+
+
 .absolute{
     position: absolute;
 }
@@ -57,17 +64,16 @@ position: fixed;
 
 
 /* 注册栏嵌套*/
-.regist{
-  .fixed;
-  .width;
+  .regist{
+   .wf;
   height:50px;
   background-color: @blue;
 
-  .regist-text1{
+    .regist-text1{
     .absolute;
-  color: @white;
-  left: 18px;
-  top: 14px;
+    color: @white;
+    left: 18px;
+    top: 14px;
   }
 
   .regist-text2{
@@ -84,21 +90,17 @@ position: fixed;
       top:13px;
       }
 
- &:hover{
-  background-color: #00a6ff;
- }
-
-}
-
-
+    &:hover{
+      background-color: #00a6ff;
+    }
+    }
 
 
   
     /* 手机输入框嵌套 */
   
     .input-phone-box{
-        .fixed;
-      .width;
+       .wf;
       height: 62px;
       background-color:@grey1;
       top: 68px;
@@ -127,10 +129,8 @@ position: fixed;
 
 
     /* 密码输入框嵌套 */
-  
     .password-box{
-      .fixed;
-      .width;
+      .wf;
       height: 62px;
       background-color:@grey1;
       top: 146px;
@@ -172,10 +172,8 @@ position: fixed;
 
   
     /* 登录栏 */
-
     .login{
-        .fixed;
-    .width;
+      .wf;
     height: 60px;
     background-color: @blue;
     top: 224px;
