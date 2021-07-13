@@ -1,0 +1,216 @@
+
+/* less定义*/
+
+.width{
+    width: 100%;
+}
+
+.fixed{
+position: fixed;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+
+.size{
+    font-size: 19px;
+}
+
+
+@center:center;
+
+@white:white;
+
+@grey1:#ffffff;
+
+@grey2:#bababa;
+
+@blue:#1ba2ea;
+
+
+
+
+
+/* 全局属性 */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+
+  html,body{
+    .width;
+    height:100%;
+    background-color: #eff0f4;
+    min-width: 320px;
+  }
+  
+
+
+
+/* 注册栏嵌套*/
+.regist{
+  .fixed;
+  .width;
+  height:50px;
+  background-color: @blue;
+
+  .regist-text1{
+    .absolute;
+  color: @white;
+  left: 18px;
+  top: 14px;
+  }
+
+  .regist-text2{
+    color: @white;
+  text-align:@center; 
+  margin-top: 12px;
+  .size;
+    }
+
+    .regist-text3{
+      .absolute;
+      color: @white;
+      right:18px;
+      top:13px;
+      }
+
+ &:hover{
+  background-color: #00a6ff;
+ }
+
+}
+
+
+
+
+  
+    /* 手机输入框嵌套 */
+  
+    .input-phone-box{
+        .fixed;
+      .width;
+      height: 62px;
+      background-color:@grey1;
+      top: 68px;
+
+      .icon-phone{
+        .fixed;
+      top: 69px;
+    }
+
+    .input-phone{
+      .relative;
+    left:60px;
+    top:2px;
+  
+    .input-top{
+      height:58px;
+      color:@grey2;
+      border:0.5px solid @grey1;
+     }
+     }
+    }
+  
+
+  
+  
+
+
+    /* 密码输入框嵌套 */
+  
+    .password-box{
+      .fixed;
+      .width;
+      height: 62px;
+      background-color:@grey1;
+      top: 146px;
+
+      .icon-password{
+        .fixed;
+      top: 147px;
+    }
+  
+    .input-password{
+      .relative;
+      left:60px;
+      top:2px;
+    
+      .input-bottom{
+        height:55px;
+        color:@grey2;
+        border:0.5px solid @grey1;
+      }
+    }
+  }
+  
+  
+
+    img{
+      width: 60px;
+      height:59px;
+    }
+  
+  
+    input{
+    .width;
+    background-color:@grey1;
+    outline:none;
+    }
+    
+  
+  
+
+  
+    /* 登录栏 */
+
+    .login{
+        .fixed;
+    .width;
+    height: 60px;
+    background-color: @blue;
+    top: 224px;
+  
+    .login-text{
+      color:@white;
+      text-align:@center;
+      margin-top: 17px;
+      letter-spacing:20px;
+      .size;
+      }
+ 
+     &:hover{
+      background-color: #00a6ff;
+     } 
+  }
+
+
+
+
+    /* 忘记密码 */
+    .link-password{
+        .fixed;
+        top:300px; 
+        right:20px;
+    }
+
+    
+    a{
+    color:@blue;
+    }
+
+    
+      
+  
+  
+  
+    
